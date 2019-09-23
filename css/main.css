@@ -1,3 +1,46 @@
 body {
     background-color: cadetblue;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+/*Rules for the three paragraphs containing the instrictions for the to-do list*/
+#instruction1 {
+    color: purple;
+}
+
+#instruction2 {
+    color: purple;
+}
+
+#instruction3 {
+    color: purple;
+}
+
+/*Styles for the input element used to add a new to-do*/
+
+input {
+    min-width: 65%; /*This element's width must be at least 65% of the width of the container*/
+}
+
+/*Styles for submit button*/
+
+#submit {
+    background-color: chartreuse;
+    color: teal;
+    border: dotted;
+    transition-delay: .5s;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+
+#submit:hover {
+    background-color: black;
 }
