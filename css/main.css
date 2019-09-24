@@ -44,3 +44,43 @@ input {
 #submit:hover {
     background-color: black;
 }
+
+/* Styles for the ul and lis */
+
+ul {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    color: chartreuse;
+    font-weight: bold;
+    background-color: slategrey;
+
+    transition: all 0.50s ease;
+    /* Webkit, for safari and opera */
+    -webkit-transition: all 0.50s ease;
+    /* Mozilla, for firefox */
+    -moz-transition: all 0.50s ease;
+    /* Opera */
+    -o-transition: all 0.50s ease;
+
+
+}
+
+/* Styles for when a list item is marked done */
+
+li:hover {
+    border: 2px solid yellow;
+}
+
+.done {
+    background-color: rosybrown;
+    color: black;
+}
+
