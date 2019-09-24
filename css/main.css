@@ -84,3 +84,19 @@ li:hover {
     color: black;
 }
 
+
+/* Style for when list item is deleted*/
+.delete {
+    display: none;
+}
+
+/* styles for the delete button */
+
+/* Target any button whose parent element is a list item */
+
+li > button {
+    float: right;
+    border: none;
+    background: none;
+    color: red;
+}
